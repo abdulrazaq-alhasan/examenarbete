@@ -6,9 +6,6 @@ import { Router, ActivatedRoute } from '@angular/router';
 
 import { Product } from '../entities/product.entity';
 import { Item } from '../entities/item.entity';
-
-//import { CookieService } from 'ngx-cookie-service';
-//import { AuthService } from '../auth.service';
 declare var $: any;
 
 @Component({
@@ -90,22 +87,5 @@ export class NavigationComponent implements OnInit {
       this.itemQuantity += item.quantity;
     }
   }
-  
-// remove(id: string): void {
-//   this.itemQuantity = 0;
-//   let cart: any = JSON.parse(localStorage.getItem('cart'));
-//   let index: number = -1;
-//   for (var i = 0; i < cart.length; i++) {
-//     let item: Item = JSON.parse(cart[i]);
-  
-//     if (item.product.id == id) {
-//       this.itemQuantity += item.quantity;
-//       cart.splice(i, 1);
-//       break;
-      
-//     }
-//   }
-//   localStorage.setItem("cart", JSON.stringify(cart));
-//   this.loadCart();
-// }
+
 }
