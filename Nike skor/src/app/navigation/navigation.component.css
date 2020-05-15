@@ -97,7 +97,8 @@ button .navbar-toggler {
     visibility: hidden;
   }
   .navbgcollapse {
-    background-color: #181a1bc5;
+    background-color: rgba(255, 255, 255, 0.835);
+    color: black;
     margin-top: 20px;
     padding-top: 0%;
     height: auto;
